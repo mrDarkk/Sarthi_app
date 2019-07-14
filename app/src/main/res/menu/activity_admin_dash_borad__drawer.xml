@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_report_new"
+            android:title="View Report" />
+
+        <item
+            android:id="@+id/nav_Issue"
+            android:icon="@drawable/ic_issue"
+            android:title="Add Worker" />
+
+    </group>
+
+    <!--<item android:title="Dashboard">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/admin_side"-->
+    <!--android:icon="@drawable/ic_admin"-->
+    <!--android:title="Admin Dashboard" />-->
+
+    <!--<item-->
+    <!--android:id="@+id/executive_side"-->
+    <!--android:icon="@drawable/ic_admin"-->
+    <!--android:title="Executive Dashboard" />-->
+
+    <!--</menu>-->
+    <!--</item>-->
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_share_new"
+                android:title="@string/menu_share" />
+        </menu>
+    </item>
+
+</menu>

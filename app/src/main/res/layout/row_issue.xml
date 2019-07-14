@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@android:color/white"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/row_height">
+
+    <TextView
+        android:layout_width="@dimen/email_cell"
+        android:id="@+id/txtex_email"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <ImageView
+        android:layout_width="@dimen/cell_width"
+        android:layout_margin="@dimen/margin"
+        android:contentDescription="@string/logo"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/imgLogo"/>
+
+    <TextView
+        android:layout_width="@dimen/cell_width"
+        android:id="@+id/txtfarmer_name"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:id="@+id/txtfarmer_phone"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <TextView
+        android:layout_width="@dimen/cell_width"
+        android:id="@+id/txtfarmer_type"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <TextView
+        android:layout_width="@dimen/cell_width"
+        android:id="@+id/txtTopic"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <TextView
+        android:layout_width="@dimen/cell_width"
+        android:id="@+id/txtissue"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <TextView
+        android:layout_width="@dimen/cell_width"
+        android:id="@+id/txtnoof_member"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <TextView
+        android:layout_width="@dimen/cell_width"
+        android:id="@+id/txtactivity"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <TextView
+        android:layout_width="@dimen/email_cell"
+        android:id="@+id/txtaddress"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin" />
+
+</LinearLayout>

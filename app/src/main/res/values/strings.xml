@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">farmers</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_view_report">ViewReportActivity</string>
+    <string name="title_activity_ex__main_">EX_Main_Activity</string>
+    <string name="title_activity_admin_dash_borad_">Admin_dashBorad_Activity</string>
+    <string name="title_activity_add__ex">Add_ExActivity</string>
+    <string name="title_activity_update__ex">Update_ExActivity</string>
+    <string name="title_activity_delete__ex">Delete_EXActivity</string>
+    <string name="title_activity_ex_dashborad">Ex_dashboradActivity</string>
+    <string name="title_activity_ex__leave_dashboad">Ex_Leave_dashboadActivity</string>
+    <string name="title_activity_adminn__dash_board_new__main">Adminn_Dash_board_new_MainActivity
+    </string>
+    <string name="title_activity_admin__view_report">Admin_View_reportActivity</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sort_ascending">Sort Ascending</string>
+    <string name="sort_descending">Sort Descending</string>
+    <string name="clear_sorting">Clear</string>
+    <string name="hiding_row_sample">Hiding 3. Row Sample</string>
+    <string name="showing_row_sample">Showing 3. Row Sample</string>
+    <string name="scroll_to_column_position">Scroll to 15. column position</string>
+    <string name="scroll_to_row_position">Scroll to 5. row position</string>
+    <string name="show_hide_the_column">Showing / Hiding 1. column</string>
+    <string name="table_pagination_details">Page %s, showing items %s - %s.</string>
+
+
+    <string name="name">Name</string>
+    <string name="logo">Logo</string>
+    <string name="location">Location</string>
+    <string name="stadium">Stadium</string>
+    <string name="league">League</string>
+    <string name="coach">Coach</string>
+    <string name="star">Star</string>
+
+    <string name="hint_search">Search by Club Name</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_take_leave">TakeLeaveActivity</string>
+    <string name="title_activity_ex__profile">Ex_ProfileActivity</string>
+</resources>

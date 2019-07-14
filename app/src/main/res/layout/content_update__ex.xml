@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".admin.Update_ExActivity"
+    tools:showIn="@layout/app_bar_update__ex">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/headerScroll"
+        android:layout_height="@dimen/header_height"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout android:orientation="horizontal"
+            android:background="@drawable/bg_bg_backgroud"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="140dp"
+                android:id="@+id/txtex_name"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/margin"
+                android:text="Full name"
+                android:textAllCaps="true"
+                android:gravity="center|start"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin" />
+
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:id="@+id/txtimg"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/margin"
+                android:text="Image"
+                android:textAllCaps="true"
+                android:gravity="center|start"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin" />
+
+            <TextView
+                android:layout_width="@dimen/email_cell"
+                android:id="@+id/txtex_email"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/margin"
+                android:gravity="center|start"
+                android:text="Email"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:id="@+id/txtex_phone"
+                android:gravity="center|start"
+                android:layout_marginStart="@dimen/margin"
+                android:textStyle="bold"
+                android:text="Phone no"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin" />
+
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:id="@+id/txtex_address"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/margin"
+                android:gravity="center|start"
+                android:text="Address"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin" />
+
+            <TextView
+                android:layout_width="@dimen/email_cell"
+                android:id="@+id/txtex_allocated_area"
+                android:gravity="center|start"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/margin"
+                android:text="Allocated Area"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin" />
+
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:id="@+id/action"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/margin"
+                android:gravity="center|start"
+                android:text="Action"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rvClub"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

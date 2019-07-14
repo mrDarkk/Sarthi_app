@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".executive.MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:showIn="@layout/app_bar_take_leave">
+
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="26dp"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:text="Visit Information"/>-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reasons"
+        android:layout_margin="15dp"
+        android:hint="Leave Reasons"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no_of_days"
+        android:layout_margin="15dp"
+        android:inputType="number"
+        android:hint="No Of Days"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtstart_date"
+            android:inputType="date"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:hint="Start Day"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStart_date"
+            android:layout_weight="1"
+            android:onClick="StartsetDate"
+            android:textColor="#fff"
+            android:background="@drawable/button_bg"
+            android:text="Start Date"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtend_date"
+            android:inputType="date"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:hint="End Day"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnend_date"
+            android:layout_weight="1"
+            android:onClick="EndsetDate"
+            android:textColor="#fff"
+            android:background="@drawable/button_bg"
+            android:text="End Date"/>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:background="@drawable/button_bg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fff"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:text="submit"/>
+
+
+
+
+
+
+</LinearLayout>
